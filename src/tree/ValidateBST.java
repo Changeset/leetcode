@@ -1,5 +1,6 @@
 package tree;
 
+
 /**
  * @ Author: Xuelong Liao
  * @ Description:
@@ -7,7 +8,26 @@ package tree;
  * @ ModifiedBy:
  */
 public class ValidateBST {
+//    public boolean isValidBST(TreeNode root) {
+//        if (root == null) return true;
+//        boolean left = root.left != null ? (root.val > maxNum(root.left) && isValidBST(root.left)) : isValidBST(root.left);
+//        boolean right = root.right != null ? (root.val < minNum(root.right) && isValidBST(root.right)) : isValidBST(root.right);
+//        return left && right;
+//    }
+//    private int maxNum(TreeNode root) {
+//        if (root.left == null && root.right == null) return root.val;
+//        int left = root.left != null ? Math.max(root.val, maxNum(root.left)) : root.val;
+//        int right = root.right != null ? Math.max(root.val, maxNum(root.right)) : root.val;
+//        return Math.max(left, right);
+//    }
+//
+//    private int minNum(TreeNode root) {
+//        if (root.left == null && root.right == null) return root.val;
+//        int left = root.left != null ? Math.min(root.val, minNum(root.left)) : root.val;
+//        int right = root.right != null ? Math.min(root.val, minNum(root.right)) : root.val;
+//        return Math.min(left, right);
+//    }
     public boolean isValidBST(TreeNode root) {
-        
+        if (root == null) return true;
     }
 }
