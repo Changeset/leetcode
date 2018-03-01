@@ -9,11 +9,7 @@ package linkedList;
 
 public class DeleteNode {
     public void deleteNode(ListNode node) {
-        ListNode head = node;
-        while (head.next != null) {
-            if (head.val == 3) {
-
-            }
-        }
+        node.val = node.next.val;
+        node.next = node.next.next;
     }
 }
