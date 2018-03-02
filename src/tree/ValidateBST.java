@@ -1,6 +1,10 @@
 package tree;
 
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 /**
  * @ Author: Xuelong Liao
  * @ Description:
@@ -28,6 +32,20 @@ public class ValidateBST {
 //        return Math.min(left, right);
 //    }
     public boolean isValidBST(TreeNode root) {
-        if (root == null) return true;
+        List<Integer> list = new ArrayList<Integer>();
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            list.add(root.val);
+            root = root.right;
+        }
+        for (int i = 0; i < list.size()-1; i++) {
+            if (list.get(i) >= list.get(i+1)) return false;
+        }
+        return true;
     }
 }
