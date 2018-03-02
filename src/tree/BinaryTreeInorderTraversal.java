@@ -11,6 +11,7 @@ import java.util.Stack;
  * @ ModifiedBy:
  */
 public class BinaryTreeInorderTraversal {
+    public List<Integer> inroderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<TreeNode>();
         while (root != null || !stack.isEmpty()) {
