@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2404f7ff-1ca3-4777-b912-0345b4482691" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/designproblems/MinStack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/strings/ImplementStrstr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/math/CountPrimes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/math/FizzBuzz.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/math/PowerOfThree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/math/RomanToInteger.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/strings/StringToInteger.class" afterPath="$PROJECT_DIR$/out/production/Leetcode/strings/StringToInteger.class" />
-      <change beforePath="$PROJECT_DIR$/src/strings/StringToInteger.java" afterPath="$PROJECT_DIR$/src/strings/StringToInteger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,26 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaximumSubarray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/MaximumSubarray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HouseRobber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/HouseRobber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StringToInteger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strings/StringToInteger.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/designproblems/MinStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-63">
@@ -86,6 +66,51 @@
                 <element signature="e#1148#1149#0" expanded="true" />
                 <element signature="e#1183#1184#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/math/FizzBuzz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountPrimes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/math/CountPrimes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PowerOfThree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/math/PowerOfThree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RomanToInteger.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/math/RomanToInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,19 +135,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShuffleArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designproblems/ShuffleArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -137,6 +149,7 @@
       <find>s\.</find>
       <find>minmum</find>
       <find>maxmum</find>
+      <find>n</find>
     </findStrings>
     <replaceStrings>
       <replace>res</replace>
@@ -145,6 +158,7 @@
       <replace>minimum</replace>
       <replace>maximum</replace>
       <replace>addedNum</replace>
+      <replace>i</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -189,6 +203,10 @@
         <option value="$PROJECT_DIR$/src/strings/StringToInteger.java" />
         <option value="$PROJECT_DIR$/src/strings/ImplementStrstr.java" />
         <option value="$PROJECT_DIR$/src/designproblems/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/math/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/src/math/CountPrimes.java" />
+        <option value="$PROJECT_DIR$/src/math/PowerOfThree.java" />
+        <option value="$PROJECT_DIR$/src/math/RomanToInteger.java" />
       </list>
     </option>
   </component>
@@ -260,6 +278,12 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sortandsearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,21 +326,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinStack">
+  <component name="RunManager" selected="Application.FizzBuzz">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="BestTimeBuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
+          <option name="PATTERN" value="math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.BestTimeBuySellStock" />
+      <option name="MAIN_CLASS_NAME" value="math.FizzBuzz" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -479,19 +503,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BestTimeBuySellStock" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MaximumSubarray" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HouseRobber" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ImplementStrstr" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MinStack" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MaximumSubarray" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HouseRobber" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ImplementStrstr" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MinStack" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FizzBuzz" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MinStack" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ImplementStrstr" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HouseRobber" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MaximumSubarray" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BestTimeBuySellStock" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FizzBuzz" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MinStack" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ImplementStrstr" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HouseRobber" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MaximumSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +546,7 @@
       <workItem from="1519911950894" duration="5617000" />
       <workItem from="1520038917721" duration="5839000" />
       <workItem from="1520141439542" duration="6647000" />
-      <workItem from="1520210912833" duration="4982000" />
+      <workItem from="1520210912833" duration="6741000" />
     </task>
     <task id="LOCAL-00001" summary="update maximum subarray code">
       <created>1520061031300</created>
@@ -538,11 +562,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520155714462</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update String problems and MinStack">
+      <created>1520217137725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520217137725</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52832000" />
+    <option name="totallyTimeSpent" value="54591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -623,7 +654,8 @@
     </ignored-roots>
     <MESSAGE value="update maximum subarray code" />
     <MESSAGE value="update HouseRobber code" />
-    <option name="LAST_COMMIT_MESSAGE" value="update HouseRobber code" />
+    <MESSAGE value="update String problems and MinStack" />
+    <option name="LAST_COMMIT_MESSAGE" value="update String problems and MinStack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -789,35 +821,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/arrays/BuyandSellStocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/RotateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/ContainsDup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1150,6 +1153,43 @@
             <element signature="e#1148#1149#0" expanded="true" />
             <element signature="e#1183#1184#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/CountPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/PowerOfThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/RomanToInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
