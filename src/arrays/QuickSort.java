@@ -1,5 +1,7 @@
 package arrays;
 
+import com.sun.xml.internal.bind.v2.model.annotation.Quick;
+
 /**
  * @ Author: Xuelong Liao
  * @ Description:
@@ -28,5 +30,14 @@ public class QuickSort {
         int swap = nums[i];
         nums[i] = nums[j];
         nums[j] = swap;
+    }
+
+    public void quickSort(int[] nums, int start, int end) {
+        if (start == end) return;
+        int index = partition(nums, start, end);
+        if (index > start)
+            quickSort(nums, start, index-1);
+        if (index < end)
+            quickSort(nums, index+1, end);
     }
 }
