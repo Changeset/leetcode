@@ -10,42 +10,35 @@ import java.util.*;
  */
 public class ThreeSum {
     public List<List<Integer>>  threeSum(int[] nums) {
-        if (nums.length == 0) return null;
-        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
-        Stack<List<Integer>> stack = new Stack<>();
-        for (int i = 0; i < nums.length; i++) {
-            List<Integer> list = new ArrayList<Integer>();
-            stack = twoSum(nums, i+1, 0-nums[i]);
-            if (!stack.isEmpty()) {
-                list = stack.pop();
-                result.add(list);
-            }
-        }
-        return result;
-    }
-
-    public Stack<List<Integer>> twoSum(int[] nums, int indexStart, int result) {
-        Stack<List<Integer>> stack = new Stack<>();
-        Set<Integer> set = new HashSet<>();
-        for (int i = indexStart; i < nums.length; i++) {
-            List<Integer> list = new ArrayList<>();
-            for (int j = i+1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == result && !set.contains(nums[i])) {
-                    list.add(nums[indexStart-1]);
-                    set.add(nums[indexStart-1]);
-                    set.add(nums[i]);
+        for (int i = 0; i < nums.length - 2; i++) {
+            int target = -nums[i];
+            int front = i + 1;
+            int back = nums.length-1;
+            while (front < back) {
+                int sum = nums[front] + nums[back];
+                if (sum < target) front++;
+                else if (sum > target) back--;
+                else {
+                    List<Integer> list = new ArrayList<Integer>(3);
+                    list.size();
                     list.add(nums[i]);
-                    list.add(nums[j]);
-                    stack.push(list);
+                    list.add(nums[front]);
+                    list.add(nums[back]);
+                    res.add(list);
+                    while (front < back && nums[front] == list.get(1)) front++;
+                    while (front < back && nums[back] == list.get(2)) back--;
                 }
+                while(i + 1 < nums.length && nums[i] == nums[i+1])
+                    i++;
             }
         }
-        return stack;
+        return res;
     }
 
     public static void main(String[] args) {
-        int[] nums = {-1, 0, 1, 2, -1, -4};
+        int[] nums = {-1,0,1,1,-1,2,-1, -4};
         ThreeSum s = new ThreeSum();
         List<List<Integer>> result = s.threeSum(nums);
         System.out.println(result);
