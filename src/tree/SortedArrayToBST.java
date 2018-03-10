@@ -14,7 +14,7 @@ public class SortedArrayToBST {
 
     public TreeNode helper(int[] num, int lo, int hi) {
         if (lo > hi) return null;
-        int mid = (lo + hi) / 2;
+        int mid = lo + (hi - lo) / 2;
         TreeNode root = new TreeNode(mid);
         root.left = helper(num, lo, mid - 1);
         root.right = helper(num, mid + 1, hi);
