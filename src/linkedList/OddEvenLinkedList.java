@@ -12,10 +12,11 @@ public class OddEvenLinkedList {
         ListNode evenNode = head.next;
         if (evenNode == null) return oddNode;
         int n = 0;
-        for (oddNode != null) {
+        if (oddNode != null ) {
             n++;
             oddNode = oddNode.next;
         }
+        return null;
     }
 
     public void exch(ListNode node1, ListNode node2) {
