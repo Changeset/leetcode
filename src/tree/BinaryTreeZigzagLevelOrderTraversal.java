@@ -2,7 +2,6 @@ package tree;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -20,29 +19,34 @@ public class BinaryTreeZigzagLevelOrderTraversal {
         stack[1] = new Stack<TreeNode>();
         if (root == null) return result;
         stack[0].push(root);
-        while (root != null || !stack[0].isEmpty() || !stack[1].isEmpty()) {
+        while (!stack[0].isEmpty() || !stack[1].isEmpty()) {
             List<Integer> list = new LinkedList<>();
-            if (flag == 0) {
-                int length = stack[0].size();
-                while (length > 0) {
-                    root = stack[0].pop();
-                    if (root.left != null) stack[1].push(root.left);
-                    if (root.right != null) stack[1].push(root.right);
-                    length--;
-                    list.add(root.val);
+            int length = stack[flag].size();
+            while (length > 0) {
+                root = stack[flag].pop();
+                if (flag == 0) {
+                    if (root.left != null) stack[1 - flag].push(root.left);
+                    if (root.right != null) stack[1 - flag].push(root.right);
+                } else {
+                    if (root.right != null) stack[1 - flag].push(root.right);
+                    if (root.left != null) stack[1 - flag].push(root.left);
                 }
-            } else {
-                int length = stack[1].size();
-                while (length > 0) {
-                    root = stack[1].pop();
-                    if (root.right != null) stack[0].push(root.right);
-                    if (root.left != null) stack[0].push(root.left);
-                    length--;
-                    list.add(root.val);
-                }
+                length--;
+                list.add(root.val);
             }
             result.add(list);
+            flag = 1 - flag;
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(3);
+        root.left = new TreeNode(7);
+        root.right = new TreeNode(9);
+        root.right.left = new TreeNode(10);
+        root.right.right = new TreeNode(20);
+        BinaryTreeZigzagLevelOrderTraversal b = new BinaryTreeZigzagLevelOrderTraversal();
+        System.out.println(b.zigzagLevelOrder(root));
     }
 }
