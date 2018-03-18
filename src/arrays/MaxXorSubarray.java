@@ -2,6 +2,9 @@ package arrays;
 
 import designproblems.MinStack;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @ Author: Xuelong Liao
  * @ Description:
@@ -55,9 +58,36 @@ public class MaxXorSubarray {
     public int maxVal(int a, int b) {
         return a > b ? a : b;
     }
+
+    public int findMaxSubarray(int[] nums) {
+        if (nums.length == 0) return 0;
+        int[] sums = new int[nums.length];
+        int prefix = 0;
+        for (int i = 0; i < nums.length; i++) {
+            prefix ^= nums[i];
+            sums[i] = prefix;
+        }
+        int max = 0, masks = 0;
+        for (int i = 31; i >= 0; i--) {
+            masks = masks | (1 << i);
+            Set<Integer> set = new HashSet<>();
+            for (int num : nums) {
+                set.add(num & masks);
+            }
+            int tmp = max | (1 << i);
+            for (int pre : set) {
+                if (set.contains(tmp ^ pre)) {
+                    max = tmp;
+                    break;
+                }
+            }
+        }
+        return max;
+    }
     public static void main(String[] args) {
         int[] nums = {8,1,2,12,7,6};
         MaxXorSubarray m = new MaxXorSubarray();
         System.out.println(m.maxXorSubarray(nums));
+        System.out.println(m.findMaxSubarray(nums));
     }
 }
