@@ -8,20 +8,25 @@ package sortandsearch;
  */
 public class SortColors {
     public void sortColors(int[] nums) {
-        int[] result = new int[nums.length];
-        int num0 = 0, num1 = 0, num2 = 0;
-        for (int num : nums) {
-            if (num == 0) num0++;
-            if (num == 1) num1++;
-            if (num == 2) num2++;
+        int p1 = 0, p2 = nums.length-1, index = 0;
+        while (index <= p2) {
+            if (nums[index] == 0) {
+                nums[index] = nums[p1];
+                nums[p1] = 0;
+                p1++;
+            }
+            if (nums[index] == 2) {
+                nums[index] = nums[p2];
+                nums[p2] = 2;
+                p2--;
+                index--;
+            }
+            index++;
         }
-        for (int i = 0; i < nums.length; i++) {
-            if (i < num0) result[i] = 0;
-            else if (i >= num0 && i < num1 + num0) result[i] = 1;
-            else result[i] = 2;
-        }
-        for (int i = 0; i < nums.length; i++) {
-            nums[i] = result[i];
-        }
+    }
+    public static void main(String[] args) {
+        int[] nums = {2,1,0,0,2,1,0,1};
+        SortColors s = new SortColors();
+        s.sortColors(nums);
     }
 }
