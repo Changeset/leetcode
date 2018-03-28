@@ -19,6 +19,7 @@ public class FractionToRecurringDecimal {
         long num = Math.abs((long)numerator);
         long den = Math.abs((long)denominator);
 
+
         // integral part
         res.append(num / den);
         num %= den;
@@ -28,7 +29,8 @@ public class FractionToRecurringDecimal {
 
         // fractional part
         res.append(".");
-        HashMap<Long, Integer> map = new HashMap<Long, Integer>();
+        HashMap<Long,
+                Integer> map = new HashMap<Long, Integer>();
         map.put(num, res.length());
         while (num != 0) {
             num *= 10;
