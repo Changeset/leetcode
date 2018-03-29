@@ -1,4 +1,4 @@
-package arrays;
+package sortandsearch;
 
 /**
  * @ Author: Xuelong Liao
