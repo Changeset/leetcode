@@ -1,5 +1,7 @@
 package linkedList;
 
+import javax.jnlp.IntegrationService;
+
 /**
  * @ Author: Xuelong Liao
  * @ Description:
@@ -51,5 +53,13 @@ public class IntersectionOfTwoLinkedList {
             b = b == null ? A : b.next;
         }
         return a;
+    }
+
+    public static void main(String[] args) {
+        ListNode A = new ListNode(1);
+        A.next = new ListNode(2);
+        ListNode B = new ListNode(4);
+        IntersectionOfTwoLinkedList i = new IntersectionOfTwoLinkedList();
+        System.out.println(i.getIntersection(A, B));
     }
 }
