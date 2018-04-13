@@ -19,6 +19,7 @@ public class Trie {
             this.word = word;
         }
     }
+
     /** Initialize your data structure here. */
     public Trie() {
         root = new TrieNode("");
