@@ -37,9 +37,14 @@ public class CombinationSum {
         else {
             for (int i = start; i < candidates.length; i++) {
                 path.add(candidates[i]);
-                backtrack(candidates, i, target - candidates[i], path, res);
+                backtrack(candidates, i + 1, target - candidates[i], path, res);
                 path.remove(path.size() - 1);
             }
         }
+    }
+    public static void main(String[] args) {
+        int[] b = {1,4,2,3,5};
+        CombinationSum s = new CombinationSum();
+        System.out.println(s.combinationSum(b, 5));
     }
 }
