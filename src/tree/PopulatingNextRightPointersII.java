@@ -1,11 +1,15 @@
 package tree;
 
-import sun.reflect.generics.tree.Tree;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class PopulatingNextRightPointers {
+/**
+ * @ Author: Xuelong Liao
+ * @ Description:
+ * @ Date: created in 9:41 2018/4/23
+ * @ ModifiedBy:
+ */
+public class PopulatingNextRightPointersII {
     public void connect(TreeLinkNode root) {
         if (root == null) return;
         Queue<TreeLinkNode> queue = new LinkedList<>();
