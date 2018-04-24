@@ -45,4 +45,11 @@ public class MedianOfTwoSortedArrays {
             return getKth(nums1, start1, nums2, start2 + k / 2, k - k / 2); //nums1 + nums2.right
         }
     }
+    public static void main(String[] args) {
+        int[] nums1 = {1,2};
+        int[] nums2 = {3,4};
+
+        MedianOfTwoSortedArrays m = new MedianOfTwoSortedArrays();
+        System.out.println(m.findMedianSortedArrays(nums1, nums2));
+    }
 }
