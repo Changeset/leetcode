@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class MaximumGap {
     public int maximumGap(int[] nums) {
         if (nums == null || nums.length < 2) return 0;
-        //get the max and min value of the array
+        // get the max and min value of the array
         int min = nums[0];
         int max = nums[0];
         for (int i : nums) {
