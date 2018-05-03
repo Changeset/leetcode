@@ -1,4 +1,4 @@
-package hashtable;
+package hashtableandbitmanipulation;
 
 import java.util.HashMap;
 import java.util.Map;
