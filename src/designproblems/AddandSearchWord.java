@@ -44,4 +44,14 @@ public class AddandSearchWord {
         }
         return false;
     }
+
+    public static void main(String[] args) {
+        AddandSearchWord a = new AddandSearchWord();
+        a.addWord("word");
+        a.addWord("start");
+        a.addWord("end");
+        a.addWord("string");
+        System.out.println(a.search(".tart"));
+        System.out.println(a.search("end"));
+    }
 }
