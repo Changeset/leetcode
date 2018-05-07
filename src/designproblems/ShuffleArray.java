@@ -43,4 +43,13 @@ public class ShuffleArray {
         a[i] = a[j];
         a[j] = t;
     }
+
+    public static void main(String[] args) {
+        int[] nums = {1,2,3,4,5,6,7};
+        ShuffleArray s = new ShuffleArray(nums);
+        int[] test = s.shuffle();
+        for (int n : test) {
+            System.out.print(n + " ");
+        }
+    }
 }

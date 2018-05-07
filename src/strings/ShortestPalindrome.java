@@ -38,6 +38,6 @@ public class ShortestPalindrome {
 
     public static void main(String[] args) {
         ShortestPalindrome s = new ShortestPalindrome();
-        System.out.println(s.shortestPalindrome("abcd"));
+        System.out.println(s.shortestPalindrome("catacb"));
     }
 }
