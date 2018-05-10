@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="20b64413-842b-4f22-872a-7fd01de13a87" name="IgnoreList" comment="IgnoreList" />
     <list default="true" id="b6bdae8b-3d04-43bd-b098-aa6753c872bf" name="Default" comment="" />
+    <list id="20b64413-842b-4f22-872a-7fd01de13a87" name="IgnoreList" comment="IgnoreList" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,7 +93,7 @@
       <file leaf-file-name="MajorityElementII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arrays/MajorityElementII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
+            <state relative-caret-position="714">
               <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,7 +105,7 @@
       <file leaf-file-name="CombinationSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/backtracking/CombinationSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="483">
               <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
@@ -114,8 +114,8 @@
       <file leaf-file-name="GenerateParentheses.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/backtracking/GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="42">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -236,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,6 +260,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,6 +496,8 @@
       <workItem from="1525827253443" duration="3706000" />
       <workItem from="1525913803911" duration="1358000" />
       <workItem from="1525950020629" duration="62000" />
+      <workItem from="1525950132148" duration="707000" />
+      <workItem from="1525950903372" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="output">
       <created>1523587514008</created>
@@ -788,7 +790,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="526509000" />
+    <option name="totallyTimeSpent" value="527245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -801,19 +803,19 @@
       <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.48187634" side_tool="true" visible="true" weight="0.25299892" />
       <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.49636552" weight="0.22867803" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5181237" weight="0.23882225" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.44509596" weight="0.19738276" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5181237" weight="0.23882225" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49324325" visible="true" weight="0.21215352" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49324325" visible="true" weight="0.21641791" />
       <window_info anchor="right" id="Database" order="3" weight="0.03837953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.43816632" weight="0.28135222" />
       <window_info id="Favorites" order="2" sideWeight="0.5067568" side_tool="true" weight="0.21778488" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.43816632" weight="0.28135222" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" sideWeight="0.50363445" side_tool="true" visible="true" weight="0.030319149" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -825,34 +827,34 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.44509596" weight="0.19825707" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53944564" weight="0.2546448" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.46588486" weight="0.24262296" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49324325" visible="true" weight="0.17910448" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="6" sideWeight="0.5067568" side_tool="true" weight="0.21778488" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297062" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53944564" weight="0.2546448" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3293348" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.49636552" weight="0.22867803" />
       <window_info anchor="right" id="Database" order="6" visible="true" weight="0.03837953" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50363445" side_tool="true" visible="true" weight="0.030319149" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3293348" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.44509596" weight="0.19825707" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.43816632" weight="0.2868048" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
-      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.49636552" weight="0.22867803" />
-      <window_info id="Favorites" order="6" sideWeight="0.5067568" side_tool="true" weight="0.21778488" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.46588486" weight="0.24262296" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50363445" side_tool="true" visible="true" weight="0.030319149" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49324325" visible="true" weight="0.17910448" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1731,7 +1733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/MajorityElementII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
+        <state relative-caret-position="714">
           <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1741,15 +1743,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/CombinationSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="483">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/GenerateParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="42">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
