@@ -13,14 +13,34 @@ import java.util.Map;
  */
 public class MajorityElementII {
     public List<Integer> majorityElement(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
         List<Integer> res = new ArrayList<>();
-        for (int i = 0; i < nums.length; i++) {
-            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+        if (nums.length == 0) return res;
+        int num1 = nums[0];
+        int num2 = nums[0], count1 = 1, count2 = 0;
+        for (int val : nums) {
+            if (val == num1) count1++;
+            else if (val == num2) count2++;
+            else if (count1 == 0) {
+                num1 = val;
+                count1++;
+            }
+            else if (count2 == 0) {
+                num2 = val;
+                count2++;
+            }
+            else {
+                count1--;
+                count2--;
+            }
         }
-        for (Map.Entry<Integer, Integer> e : map.entrySet()) {
-            if (e.getValue() > nums.length / 3) res.add(e.getKey());
+        count1 = 0;
+        count2 = 0;
+        for (int val : nums) {
+            if (val == num1) count1++;
+            else if (val == num2) count2++;
         }
+        if (count1 > nums.length/3) res.add(num1);
+        if (count2 > nums.length/3) res.add(num2);
         return res;
     }
 
