@@ -1,6 +1,5 @@
 package arrays;
 
-import com.sun.xml.internal.bind.v2.model.annotation.Quick;
 
 /**
  * @ Author: Xuelong Liao
