@@ -14,6 +14,7 @@ public class BurstBalloons {
             if (x > 0) iNums[n++] = x;
         iNums[0] = iNums[n++] = 1;
 
+
         int[][] dp = new int[n][n];
         for (int k = 2; k < n; k++) {
             for (int left = 0; left < n - k; left++) {
