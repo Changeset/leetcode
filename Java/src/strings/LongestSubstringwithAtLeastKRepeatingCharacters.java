@@ -12,6 +12,7 @@ public class LongestSubstringwithAtLeastKRepeatingCharacters {
     public int longestSubstring(String s, int k) {
         char[] str = s.toCharArray();
         int[] counts = new int[26];
+
         int h, i, j, idx, max = 0, unique, noLessThanK;
 
         for (h = 1; h <= 26; h++) {
