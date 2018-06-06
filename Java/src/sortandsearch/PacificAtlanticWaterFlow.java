@@ -38,7 +38,7 @@ public class PacificAtlanticWaterFlow {
         if (x < 0 || x >= n || y < 0 || y >= m || visited[x][y] || matrix[x][y] < height)
             return;
         visited[x][y] = true;
-        for (int[] d : matrix) {
+        for (int[] d : dir) {
             dfs(matrix, visited, matrix[x][y], x + d[0], y + d[1]);
         }
     }
