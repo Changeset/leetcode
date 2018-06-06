@@ -32,7 +32,7 @@ public class PacificAtlanticWaterFlow {
                     res.add(new int[] {i, j});
         return res;
     }
-
+    int[][] dir = new int[][]{{0,1}, {0,-1}, {1,0}, {-1,0}};
     private void dfs(int[][] matrix, boolean[][] visited, int height, int x, int y) {
         int n = matrix.length, m = matrix[0].length;
         if (x < 0 || x >= n || y < 0 || y >= m || visited[x][y] || matrix[x][y] < height)
