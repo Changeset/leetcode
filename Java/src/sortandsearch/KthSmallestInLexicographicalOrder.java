@@ -32,4 +32,9 @@ public class KthSmallestInLexicographicalOrder {
         }
         return steps;
     }
+
+    public static void main(String[] args) {
+        KthSmallestInLexicographicalOrder k = new KthSmallestInLexicographicalOrder();
+        System.out.println(k.findKthNumber(3, 2));
+    }
 }
