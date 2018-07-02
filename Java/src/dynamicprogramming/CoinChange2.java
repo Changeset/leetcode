@@ -11,4 +11,10 @@ public class CoinChange2 {
         }
         return dp[amount];
     }
+
+    public static void main(String[] args) {
+        int[] coins = {2};
+        CoinChange2 c = new CoinChange2();
+        System.out.println(c.change(3, coins));
+    }
 }
