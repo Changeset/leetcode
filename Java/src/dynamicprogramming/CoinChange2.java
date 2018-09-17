@@ -13,7 +13,7 @@ public class CoinChange2 {
     }
 
     public static void main(String[] args) {
-        int[] coins = {2};
+        int[] coins = {1,2,3};
         CoinChange2 c = new CoinChange2();
         System.out.println(c.change(3, coins));
     }

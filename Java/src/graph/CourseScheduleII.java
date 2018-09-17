@@ -54,6 +54,8 @@ public class CourseScheduleII {
     }
 
     public static void main(String[] args) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1);
         int[][] prerequisites = {
                 {1,0},
                 {2,0},
