@@ -14,10 +14,14 @@ public class ArrayNesting {
             for (int k = i; nums[k] >= 0; size++) {
                 int numsk = nums[k];
                 nums[k] = -1;
-                k = nums[k];
+                k = numsk;
             }
             maxsize = Math.max(maxsize, size);
         }
         return maxsize;
+    }
+
+    public static void main(String[] args) {
+        ArrayNesting a = new ArrayNesting();
     }
 }
